@@ -1,0 +1,27 @@
+<!doctype html>
+
+<head>
+  <link rel="stylesheet" href="main.css" />
+  <script src="app.js"></script>
+</head>
+
+<body onload="textApp();">
+  <header>
+    <span>Simple text editor</span>
+  </header>
+  <main>
+    <div id="control-panel">
+      <div id="format-actions">
+        <button onClick="bold()" class="format-action" type="button"><b>B</b></button>
+        <button onClick="italic()" class="format-action" type="button"><i>I</i></button>
+        <button onClick="underline()" class="format-action" type="button"><u>U</u></button>
+      </div>
+    </div>
+    <div id="file-zone">
+      <div id="file">
+        <iframe name="textArea" id="textArea"></iframe>
+      </div>
+    </div>
+  </main>
+  <footer>2018. Agile Engine</footer>
+</body>
