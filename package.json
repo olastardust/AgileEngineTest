@@ -15,6 +15,6 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/agileengine/ae-frontend-texteditor-vanillajs-skeleton#readme",
   "devDependencies": {
-    "http-static": "0.0.8"
+    "http-static": "0.1.1"
   }
 }
